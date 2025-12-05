@@ -1,5 +1,5 @@
 //generare un numero random da pc ta 1 e 6
-numberPc = Math.floor(Math.random() * 6) + 1;
+const numberPc = Math.floor(Math.random() * 6) + 1;
 
 //far inserire un numero all'utente con prompt
 // // verificare che queto numero sia tra 1-6
@@ -21,5 +21,6 @@ if( numberPc > numberUser){// se maggiore il numero del pc allora l'utente ha pe
     result = "Hai pareggiato";
 }
 console.log(result);
+alert(result);
 
 
